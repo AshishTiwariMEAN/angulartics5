@@ -19,11 +19,9 @@
     "/" 
   ],
   "_spec": "angulartics5",
-  "_where": "/home/ashishtiwari/ashish/GTM/gmt",
   "author": {
-    "name": "Ashish Tiwari",
-    "email": "autobookfacebook@gmail.com",
-    "url": "https://github.com/AshishTiwariMEAN"
+    "name": "Autobook",
+    "email": "autobookfacebook@gmail.com"
   },
   "bundleDependencies": false,
   "dependencies": {
