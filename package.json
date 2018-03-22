@@ -1,35 +1,30 @@
 {
-  "_from": "angulartics2",
-  "_id": "angulartics2@5.2.0",
+  "_from": "angulartics5",
+  "_id": "angulartics5@5.2.0",
   "_inBundle": false,
   "_integrity": "sha512-6uRX6uTLEtgwFAfPAXYWexnpndWcHKoeymDrwnh95OI5KMKgdPvWC2u3amHtap5iHzpWOff5Z8322kKGTU5pgw==",
-  "_location": "/angulartics2",
+  "_location": "/angulartics5",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "angulartics2",
-    "name": "angulartics2",
-    "escapedName": "angulartics2",
+    "raw": "angulartics5",
+    "name": "angulartics5",
+    "escapedName": "angulartics5",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
   },
   "_requiredBy": [
     "#USER",
-    "/"
+    "/" 
   ],
-  "_resolved": "https://registry.npmjs.org/angulartics2/-/angulartics2-5.2.0.tgz",
-  "_shasum": "5bac82d4b6acf798b7db906488861e70b49fe04c",
-  "_spec": "angulartics2",
+  "_spec": "angulartics5",
   "_where": "/home/ashishtiwari/ashish/GTM/gmt",
   "author": {
-    "name": "João Ribeiro",
-    "email": "jonnybgod@gmail.com",
-    "url": "http://github.com/JonnyBGod"
-  },
-  "bugs": {
-    "url": "http://github.com/angulartics/angulartics2/issues"
+    "name": "Ashish Tiwari",
+    "email": "isshu1987@gmail.com",
+    "url": "https://github.com/AshishTiwariMEAN"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -41,7 +36,6 @@
     "node": ">=6.9.0"
   },
   "es2015": "./es2015/index.js",
-  "homepage": "https://angulartics.github.io/angulartics2/",
   "keywords": [
     "angular2",
     "ng2",
@@ -67,7 +61,7 @@
   "license": "MIT",
   "main": "./bundles/core.umd.js",
   "module": "./index.js",
-  "name": "angulartics2",
+  "name": "angulartics5",
   "peerDependencies": {
     "@angular/common": ">= 5.0.0",
     "@angular/core": ">= 5.0.0",
@@ -79,7 +73,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angulartics/angulartics2.git"
+    "url": "git+https://github.com/AshishTiwariMEAN/angulartics5.git"
   },
   "typings": "./index.d.ts",
   "version": "5.2.0"
