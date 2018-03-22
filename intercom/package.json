@@ -1,12 +1,7 @@
 {
-  "name": "angulartics2/intercom",
+  "name": "angulartics5/intercom",
   "description": "The intercom module",
-  "homepage": "https://angulartics.github.io/angulartics2/",
-  "author": "João Ribeiro <jonnybgod@gmail.com> (http://github.com/JonnyBGod)",
-  "bugs": {
-    "url": "http://github.com/angulartics/angulartics2/issues"
-  },
-  "repository": "angulartics/angulartics2",
+  "repository": "angulartics/angulartics5",
   "main": "../bundles/intercom.umd.js",
   "module": "intercom.es5.js",
   "es2015": "intercom.es2015.js",

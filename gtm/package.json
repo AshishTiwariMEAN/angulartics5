@@ -1,12 +1,7 @@
 {
-  "name": "angulartics2/gtm",
+  "name": "angulartics5/gtm",
   "description": "The gtm module",
-  "homepage": "https://angulartics.github.io/angulartics2/",
-  "author": "João Ribeiro <jonnybgod@gmail.com> (http://github.com/JonnyBGod)",
-  "bugs": {
-    "url": "http://github.com/angulartics/angulartics2/issues"
-  },
-  "repository": "angulartics/angulartics2",
+  "repository": "angulartics/angulartics5",
   "main": "../bundles/gtm.umd.js",
   "module": "gtm.es5.js",
   "es2015": "gtm.es2015.js",
