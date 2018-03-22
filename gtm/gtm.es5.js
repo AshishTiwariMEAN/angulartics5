@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Angulartics2 } from 'angulartics2';
+import { Angulartics2 } from 'angulartics5';
 
 var __assign = (undefined && undefined.__assign) || Object.assign || function(t) {
     for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -48,7 +48,15 @@ var Angulartics2GoogleTagManager = (function () {
     Angulartics2GoogleTagManager.prototype.eventTrack = function (action, properties) {
         properties = properties || {};
         if (typeof dataLayer !== 'undefined' && dataLayer) {
-            dataLayer.push(__assign({ event: properties.event || 'interaction', target: properties.category || 'Event', action: action, label: properties.label, value: properties.value, interactionType: properties.noninteraction, userId: this.angulartics2.settings.gtm.userId }, properties.gtmCustom));
+            // dataLayer.push(__assign({ event: properties.event || 'interaction', target: properties.category || 'Event', action: action, label: properties.label, value: properties.value, interactionType: properties.noninteraction, userId: this.angulartics2.settings.gtm.userId }, properties.gtmCustom));
+            /**Custom parameter for GTM event tracking */
+            if(action === 'Create'){
+                dataLayer.push(__assign({ event: properties.event || 'interaction', formCategory: properties.category || 'Event', formAction: action, formLabel: properties.label, value: properties.value, EventID:properties.url , interactionType: properties.noninteraction, userId: this.angulartics2.settings.gtm.userId }, properties.gtmCustom));
+             }else if(action === 'View'){
+                dataLayer.push(__assign({ event: properties.event || 'interaction', ContentCategory: properties.category || 'Event', ContentAction: action, ContentLabel: properties.label, value: properties.value, EventID:properties.url , interactionType: properties.noninteraction, userId: this.angulartics2.settings.gtm.userId }, properties.gtmCustom));
+             }else if(action === 'Exclusive events'){
+                dataLayer.push(__assign({ event: properties.event || 'interaction', formCategory: properties.category || 'Event', formAction: action, formLabel: properties.label, value: properties.value, EventID:properties.url , UserEmail:properties.UserEmail , interactionType: properties.noninteraction, userId: this.angulartics2.settings.gtm.userId }, properties.gtmCustom));
+             }
         }
     };
     Angulartics2GoogleTagManager.prototype.exceptionTrack = function (properties) {

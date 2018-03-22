@@ -1,4 +1,4 @@
-import { Angulartics2, GoogleAnalyticsSettings, UserTimings } from 'angulartics2';
+import { Angulartics2, GoogleAnalyticsSettings, UserTimings } from 'angulartics5';
 export declare class GoogleAnalyticsDefaults implements GoogleAnalyticsSettings {
     additionalAccountNames: any[];
     userId: any;

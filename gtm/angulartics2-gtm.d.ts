@@ -1,4 +1,4 @@
-import { Angulartics2, GoogleTagManagerSettings } from 'angulartics2';
+import { Angulartics2, GoogleTagManagerSettings } from 'angulartics5';
 export declare class GoogleTagManagerDefaults implements GoogleTagManagerSettings {
     userId: any;
 }

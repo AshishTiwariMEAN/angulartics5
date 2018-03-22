@@ -2,7 +2,6 @@
   "_from": "angulartics5",
   "_id": "angulartics5@5.2.0",
   "_inBundle": false,
-  "_integrity": "sha512-6uRX6uTLEtgwFAfPAXYWexnpndWcHKoeymDrwnh95OI5KMKgdPvWC2u3amHtap5iHzpWOff5Z8322kKGTU5pgw==",
   "_location": "/angulartics5",
   "_phantomChildren": {},
   "_requested": {
@@ -76,5 +75,5 @@
     "url": "git+https://github.com/AshishTiwariMEAN/angulartics5.git"
   },
   "typings": "./index.d.ts",
-  "version": "5.2.0"
+  "version": "1.0.0"
 }
