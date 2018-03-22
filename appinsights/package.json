@@ -5,6 +5,5 @@
   "main": "../bundles/appinsights.umd.js",
   "module": "appinsights.es5.js",
   "es2015": "appinsights.es2015.js",
-  "typings": "index.d.ts",
-  "license": "MIT"
+  "typings": "index.d.ts"
 }

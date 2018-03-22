@@ -5,6 +5,5 @@
   "main": "../bundles/segment.umd.js",
   "module": "segment.es5.js",
   "es2015": "segment.es2015.js",
-  "typings": "index.d.ts",
-  "license": "MIT"
+  "typings": "index.d.ts"
 }

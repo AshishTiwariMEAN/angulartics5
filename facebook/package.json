@@ -5,6 +5,5 @@
   "main": "../bundles/facebook.umd.js",
   "module": "facebook.es5.js",
   "es2015": "facebook.es2015.js",
-  "typings": "index.d.ts",
-  "license": "MIT"
+  "typings": "index.d.ts"
 }

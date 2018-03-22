@@ -5,6 +5,5 @@
   "main": "../bundles/woopra.umd.js",
   "module": "woopra.es5.js",
   "es2015": "woopra.es2015.js",
-  "typings": "index.d.ts",
-  "license": "MIT"
+  "typings": "index.d.ts"
 }

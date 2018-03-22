@@ -5,6 +5,5 @@
   "main": "../bundles/adobeanalytics.umd.js",
   "module": "adobeanalytics.es5.js",
   "es2015": "adobeanalytics.es2015.js",
-  "typings": "index.d.ts",
-  "license": "MIT"
+  "typings": "index.d.ts"
 }

@@ -55,7 +55,6 @@
     "adobe analytics",
     "baidu"
   ],
-  "license": "MIT",
   "main": "./bundles/core.umd.js",
   "module": "./index.js",
   "name": "angulartics5",

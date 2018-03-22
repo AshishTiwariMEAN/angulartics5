@@ -5,6 +5,5 @@
   "main": "../bundles/hubspot.umd.js",
   "module": "hubspot.es5.js",
   "es2015": "hubspot.es2015.js",
-  "typings": "index.d.ts",
-  "license": "MIT"
+  "typings": "index.d.ts"
 }

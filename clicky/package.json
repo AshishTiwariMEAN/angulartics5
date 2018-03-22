@@ -5,6 +5,5 @@
   "main": "../bundles/clicky.umd.js",
   "module": "clicky.es5.js",
   "es2015": "clicky.es2015.js",
-  "typings": "index.d.ts",
-  "license": "MIT"
+  "typings": "index.d.ts"
 }

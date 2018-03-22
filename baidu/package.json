@@ -5,6 +5,5 @@
   "main": "../bundles/baidu.umd.js",
   "module": "baidu.es5.js",
   "es2015": "baidu.es2015.js",
-  "typings": "index.d.ts",
-  "license": "MIT"
+  "typings": "index.d.ts"
 }

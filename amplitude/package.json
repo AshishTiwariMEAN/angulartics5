@@ -5,6 +5,5 @@
   "main": "../bundles/amplitude.umd.js",
   "module": "amplitude.es5.js",
   "es2015": "amplitude.es2015.js",
-  "typings": "index.d.ts",
-  "license": "MIT"
+  "typings": "index.d.ts"
 }

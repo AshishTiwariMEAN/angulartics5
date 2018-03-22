@@ -5,6 +5,5 @@
   "main": "../bundles/intercom.umd.js",
   "module": "intercom.es5.js",
   "es2015": "intercom.es2015.js",
-  "typings": "index.d.ts",
-  "license": "MIT"
+  "typings": "index.d.ts"
 }
